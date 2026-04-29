@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ant Friction | Menos amasso, mais atitude</title>
+  <meta name="description" content="Ant Friction: cremes capilares com alta performance, visual jovem e embalagens colecionaveis.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-bar">
+    <p>Frete gratis acima de R$80 | 10% OFF no PIX | Compre 2 e ganhe mini-chaveiro</p>
+  </div>
+
+  <header class="site-header">
+    <div class="logo">ANT FRICTION</div>
+    <nav>
+      <a href="#shop">Produtos</a>
+      <a href="#quiz">Quiz</a>
+      <a href="edicoes.html">Edicoes</a>
+      <a href="ugc.html">Resultados</a>
+      <a href="product.html?id=tipo7">Linha Premium</a>
+    </nav>
+    <button class="cta-small" id="open-cart-btn">Carrinho (<span id="cart-count">0</span>)</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <span class="badge">NOVA COLECAO 2026</span>
+        <h1>Menos amasso. Mais atitude no seu cabelo.</h1>
+        <p>
+          Ciencia capilar + universo criativo: cremes de alta performance com design colecionavel,
+          textura de outro mundo e resultados reais. Todos os produtos sao 100% reciclaveis e feitos no Brasil.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#shop">Comprar agora</a>
+          <a class="btn secondary" href="#quiz">Descobrir meu creme</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="floating hero-photo hero-main">
+          <img src="images/pink-bottle.png" alt="Creme Ant Friction rosa com chaveiro" loading="eager" fetchpriority="high" decoding="async">
+        </div>
+        <div class="floating hero-photo hero-side hero-left">
+          <img src="images/red.png" alt="Pote Ant Friction vermelho com chaveiro" loading="lazy" decoding="async">
+        </div>
+        <div class="floating hero-photo hero-side hero-right">
+          <img src="images/green.png" alt="Pote Ant Friction verde com chaveiro" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <section class="missions">
+      <h2>Escolha sua missao capilar</h2>
+      <div class="mission-grid">
+        <article>Anti-frizz</article>
+        <article>Definicao intensa</article>
+        <article>Hidratacao profunda</article>
+        <article>Volume controlado</article>
+        <article>Reparacao</article>
+        <article>Controle com movimento</article>
+      </div>
+    </section>
+
+    <section id="shop" class="products">
+      <h2>Linha Ant Friction</h2>
+      <div class="product-grid">
+        <article class="card yellow product-card">
+          <img src="images/red.png" alt="Shield Ant - pote vermelho" loading="lazy" decoding="async">
+          <h3>Tipo 1 - Hidratação leve</h3>
+          <p>Textura leve para manter maciez diaria sem pesar os fios.</p>
+          <div class="product-meta">
+            <span>R$ 39,90</span>
+            <div class="product-actions">
+              <a class="details-link" href="product.html?id=tipo1">Detalhes</a>
+              <button class="add-to-cart-btn" data-product-id="tipo1" data-name="Tipo 1 - Hidratacao leve" data-price="39.90">Adicionar</button>
+            </div>
+          </div>
+        </article>
+        <article class="card pink product-card">
+          <img src="images/pink-heart.png" alt="Curl Ant - pote coracao rosa" loading="lazy" decoding="async">
+          <h3>Tipo 2 - Controle de frizz</h3>
+          <p>Controla arrepiados e umidade para acabamento mais alinhado.</p>
+          <div class="product-meta">
+            <span>R$ 37,90</span>
+            <div class="product-actions">
+              <a class="details-link" href="product.html?id=tipo2">Detalhes</a>
+              <button class="add-to-cart-btn" data-product-id="tipo2" data-name="Tipo 2 - Controle de frizz" data-price="42.90">Adicionar</button>
+            </div>
+          </div>
+        </article>
+        <article class="card blue product-card">
+          <img src="images/black.png" alt="Hydra Ant - pote preto" loading="lazy" decoding="async">
+          <h3>Tipo 3 - Nutrição equilibrada</h3>
+          <p>Equilibra nutricao e leveza, ideal para rotina de manutencao.</p>
+          <div class="product-meta">
+            <span>R$ 36,60</span>
+            <div class="product-actions">
+              <a class="details-link" href="product.html?id=tipo3">Detalhes</a>
+              <button class="add-to-cart-btn" data-product-id="tipo3" data-name="Tipo 3 - Nutricao equilibrada" data-price="44.90">Adicionar</button>
+            </div>
+          </div>
+        </article>
+        <article class="card green product-card">
+          <img src="images/green.png" alt="Fix Ant - pote verde" loading="lazy" decoding="async">
+          <h3>Tipo 4 - Hidratação intensa</h3>
+          <p>Reposicao de agua profunda para fios muito ressecados.</p>
+          <div class="product-meta">
+            <span>R$ 32,80</span>
+            <div class="product-actions">
+              <a class="details-link" href="product.html?id=tipo4">Detalhes</a>
+              <button class="add-to-cart-btn" data-product-id="tipo4" data-name="Tipo 4 - Hidratacao intensa" data-price="46.90">Adicionar</button>
+            </div>
+          </div>
+        </article>
+        <article class="card yellow product-card">
+          <img src="images/pink-bottle.png" alt="Reparação profunda - embalagem rosa" loading="lazy" decoding="async">
+          <h3>Tipo 5 - Reparação profunda</h3>
+          <p>Formula para fios danificados por quimica, calor e quebra.</p>
+          <div class="product-meta">
+            <span>R$ 45,70</span>
+            <div class="product-actions">
+              <a class="details-link" href="product.html?id=tipo5">Detalhes</a>
+              <button class="add-to-cart-btn" data-product-id="tipo5" data-name="Tipo 5 - Reparacao profunda" data-price="49.90">Adicionar</button>
+            </div>
+          </div>
+        </article>
+        <p class="product-section-label" role="presentation">Edicoes e colecoes especiais</p>
+        <article class="card navy product-card">
+          <img src="images/celestial.png" alt="Edicao Celestial - frasco azul e rotulo astronomico" loading="lazy" decoding="async">
+          <h3>Edição Celestial</h3>
+          <p>Toque de Merlin: creme da famosa cronologia de Harry Potter.</p>
+          <div class="product-meta">
+            <span>R$ 35,80</span> 
+            <div class="product-actions">
+              <a class="details-link" href="product.html?id=tipo6">Detalhes</a>
+              <button class="add-to-cart-btn" data-product-id="tipo6" data-name="Edicao Celestial" data-price="59.90">Adicionar</button>
+            </div>
+          </div>
+        </article>
+        <article class="card luxe product-card">
+          <img src="images/luxe-trio.png" alt="Linha Black Luxe - potes pretos foscos" loading="lazy" decoding="async">
+          <h3>Edição Luxo</h3>
+          <p> Elementa black: Tratamento com o poder da natureza.</p>
+          <div class="product-meta">
+            <span>R$ 52,80</span>
+            <div class="product-actions">
+              <a class="details-link" href="product.html?id=tipo7">Detalhes</a>
+              <button class="add-to-cart-btn" data-product-id="tipo7" data-name="Linha Black Luxe" data-price="64.90">Adicionar</button>
+            </div>
+          </div>
+        </article>
+        <article class="card tropical product-card">
+          <img src="images/tropical-te-fiti.png" alt="Creme tropical Te Fiti - rotulo verde e flores" loading="lazy" decoding="async">
+          <h3>Edição tropical </h3>
+          <p>Ilha viva: creme do famoso filme da princesa moana.</p>  
+          <div class="product-meta">
+            <span>R$ 37,60</span>
+            <div class="product-actions">
+              <a class="details-link" href="product.html?id=tipo8">Detalhes</a>
+              <button class="add-to-cart-btn" data-product-id="tipo8" data-name="Te Fiti - Tropical" data-price="54.90">Adicionar</button>
+            </div>
+          </div>
+        </article>
+        <article class="card brave product-card">
+          <img src="images/valente-floresta.png" alt="Creme Valente Floresta com personagem ruiva" loading="lazy" decoding="async">
+          <h3>Edição Medieval</h3>
+          <p>Florest: Creme ideal para admiradores do filme Valente</p>
+          <div class="product-meta">
+            <span>R$ 37,60</span> 
+            <div class="product-actions">
+              <a class="details-link" href="product.html?id=tipo9">Detalhes</a>
+              <button class="add-to-cart-btn" data-product-id="tipo9" data-name="Valente - Floresta" data-price="57.90">Adicionar</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="kits-rapidos">
+      <h2>Kits rapidos Ant Friction</h2>
+      <div class="proof-stats">
+        <div>
+          <strong>Kit Anti-frizz</strong>
+          <span>Tipo 2 + Tipo 4 + Valente</span>
+          <button class="add-bundle-btn" data-bundle="frizz">Adicionar kit</button>
+        </div>
+        <div>
+          <strong>Kit Reparacao</strong>
+          <span>Tipo 5 + Tipo 4 + Linha Black</span>
+          <button class="add-bundle-btn" data-bundle="repair">Adicionar kit</button>
+        </div>
+        <div>
+          <strong>Kit Praia</strong>
+          <span>Te Fiti + Tipo 2 + Tipo 1</span>
+          <button class="add-bundle-btn" data-bundle="beach">Adicionar kit</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Colecao Ant Friction em destaque</h2>
+      <div class="gallery-grid">
+        <img src="images/pink-bottle.png" alt="Embalagem rosa Ant Friction em destaque" loading="lazy" decoding="async">
+        <img src="images/pink-heart.png" alt="Pote rosa em formato de coracao Ant Friction" loading="lazy" decoding="async">
+        <img src="images/black.png" alt="Pote preto Ant Friction com chaveiro" loading="lazy" decoding="async">
+        <img src="images/celestial.png" alt="Edicao Celestial ANTI FRICTION" loading="lazy" decoding="async">
+        <img src="images/luxe-trio.png" alt="Linha Black Luxe trio de potes" loading="lazy" decoding="async">
+        <img src="images/tropical-te-fiti.png" alt="Te Fiti tropical verde" loading="lazy" decoding="async">
+        <img src="images/valente-floresta.png" alt="Edicao Valente Floresta" loading="lazy" decoding="async">
+      </div>
+    </section>
+
+    <section id="results" class="social-proof">
+      <h2>Resultados reais em cabelos reais</h2>
+      <div class="proof-stats">
+        <div><strong>4.9/5</strong><span>avaliacao media</span></div>
+        <div><strong>+32 mil</strong><span>clientes felizes</span></div>
+        <div><strong>+8 mil</strong><span>videos com #AntFriction</span></div>
+      </div>
+      <p class="proof-quote">"Nunca vi meu cabelo tao definido e sem frizz por tanto tempo."</p>
+    </section>
+
+    <section class="how-it-works">
+      <h2>Como usar em 3 passos</h2>
+      <ol>
+        <li><strong>Preparar:</strong> aplique no cabelo umido, mecha por mecha.</li>
+        <li><strong>Finalizar:</strong> amasse ou escove para ativar o efeito ideal.</li>
+        <li><strong>Selar:</strong> espere secar e aproveite brilho, toque e definicao.</li>
+      </ol>
+      <a class="btn primary" href="#club">Quero kit completo</a>
+    </section>
+
+    <section id="quiz" class="quiz-section">
+      <h2>Quiz: qual Ant combina com voce?</h2>
+      <p>Responda em 5 etapas rapidas e receba seu creme ideal.</p>
+      <div class="quiz-card">
+        <div class="quiz-header">
+          <p id="quiz-step-label">Pergunta 1 de 5</p>
+          <div class="progress-track">
+            <div id="quiz-progress" class="progress-fill"></div>
+          </div>
+        </div>
+        <p id="quiz-question"></p>
+        <div class="quiz-options" id="quiz-options"></div>
+        <div id="quiz-result" class="quiz-result hidden" aria-live="polite">
+          <h3 id="result-title"></h3>
+          <p id="result-explanation"></p>
+          <p id="result-usage"></p>
+          <div id="result-kit" class="result-kit"></div>
+          <button id="add-result-to-cart" class="btn primary">Adicionar ao carrinho</button>
+          <button id="add-kit-to-cart" class="btn primary">Adicionar kit completo</button>
+          <a id="share-whatsapp" class="btn secondary" target="_blank" rel="noopener noreferrer" href="#">Compartilhar no WhatsApp</a>
+          <button id="restart-quiz" class="btn secondary">Refazer quiz</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="drops-teaser">
+      <h2>Drops e colecoes do mes</h2>
+      <p>Entre no universo Ant Friction com edicoes limitadas, collabs e kits sazonais.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="edicoes.html">Ver drops ativos</a>
+        <a class="btn secondary" href="ugc.html">Resultados da comunidade</a>
+      </div>
+    </section>
+
+    <section id="club" class="club">
+      <h2>Clube Ant: compre, acumule, colecione</h2>
+      <p>
+        A cada compra voce ganha pontos para trocar por miniaturas, chaveiros e edicoes limitadas.
+        Mais do que cuidado capilar: uma experiencia de colecao.
+      </p>
+      <a class="btn secondary" href="#shop">Entrar no Clube</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <h3>Ant Friction</h3>
+      <p>Textura premium, atitude jovem e resultado de verdade.</p>
+    </div>
+    <div>
+      <h4>Links</h4>
+      <a href="#shop">Produtos</a>
+      <a href="#results">Resultados</a>
+      <a href="#quiz">Quiz</a>
+    </div>
+    <div>
+      <h4>Suporte</h4>
+      <a href="#">FAQ</a>
+      <a href="#">Entrega</a>
+      <a href="#">Contato</a>
+    </div>
+  </footer>
+
+  <aside id="cart-drawer" class="cart-drawer" aria-label="Carrinho">
+    <div class="cart-header">
+      <h3>Seu carrinho</h3>
+      <button id="close-cart-btn" class="cart-close-btn" aria-label="Fechar carrinho">x</button>
+    </div>
+    <div id="cart-items" class="cart-items">
+      <p class="cart-empty">Seu carrinho esta vazio.</p>
+    </div>
+    <div class="cart-footer">
+      <div id="cart-upsell" class="cart-upsell hidden"></div>
+      <div class="cart-benefits">
+        <p id="cart-goal-text">Faltam R$ 80,00 para frete gratis.</p>
+        <div class="progress-track"><div id="cart-goal-progress" class="progress-fill"></div></div>
+        <p id="cart-discount-text">Compre 2 itens para 5% OFF no kit.</p>
+      </div>
+      <p>Total: <strong id="cart-total">R$ 0,00</strong></p>
+      <button class="btn primary cart-checkout-btn">Finalizar simulacao</button>
+    </div>
+  </aside>
+  <div id="cart-overlay" class="cart-overlay"></div>
+
+  <div class="mobile-sticky-cta" id="mobile-sticky-cta">
+    <div>
+      <small>Seu carrinho</small>
+      <strong id="mobile-sticky-total">R$ 0,00</strong>
+    </div>
+    <button id="mobile-open-cart-btn" class="btn primary">Ver carrinho</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
